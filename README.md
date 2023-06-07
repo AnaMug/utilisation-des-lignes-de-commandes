@@ -15,7 +15,7 @@ Ce document est basé sur une traduction de "The Art of the command Line" de [Jo
 - [Avertissement](#avertissement)
 
 
-![curl -s 'https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README.md' | egrep -o '`\w+`' | tr -d '`' | cowsay -W50](/images/cowsay.pngcowsay.png)
+![curl -s 'https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README.md' | egrep -o '`\w+`' | tr -d '`' | cowsay -W50](images/cowsay.pngcowsay.png)
 
 
 
