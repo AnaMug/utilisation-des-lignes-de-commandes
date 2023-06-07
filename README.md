@@ -1,5 +1,6 @@
 # L'art de la ligne de commande
 
+Ce document est basé sur une traduction de "The Art of the command Line" de [Joshua Levy (jlevy)](https://github.com/jlevy). Il a pour objectif d'appréhender et d'utiliser les outils en lignes de commandes sur systèmes **UNIX** et **WINDOWS**, il sera alimenté et agrémenté d nouvelle fonctionnalités au cours du temps afin de vous permettre d'apprendre et de les utiliser du mieux possible. La maîtrise de la ligne de commande est une compétence souvent négligée ou considérée ésotérique, pourtant elle améliore de façon évidente et subtile votre habilité et votre productivité en tant que développeur. Certaines commandes vous paraîtrons élémentaires, d'autres seront assez spécifiques, complexes ou obscures.
 
 - [Méta](#méta)
 - [Notions de base](#notions-de-base)
@@ -16,15 +17,7 @@
 
 ![curl -s 'https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README.md' | egrep -o '`\w+`' | tr -d '`' | cowsay -W50](cowsay.png)
 
-La maîtrise de la ligne de commande est une compétence souvent négligée ou considérée ésotérique, pourtant elle améliore de façon évidente et subtile votre habilité et votre productivité en tant qu'ingénieur.
-Ceci est une sélection de notes et d'astuces sur l'utilisation de la ligne de commande que nous avons trouvées utiles en travaillant avec Linux.
-Certaines sont élémentaires, d'autres sont assez spécifiques, complexes ou obscures.
-Cette page n'est pas bien longue, mais si vous pouvez retenir et vous servir de tout ce qui s'y trouve, alors vous saurez beaucoup de choses.
 
-Ce document est le fruit du travail de [nombreux auteurs et traducteurs](AUTHORS.md).
-Une partie de celui-ci a été [initialement](http://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands) [publiée](http://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix) sur [Quora](http://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know), mais il se trouve maintenant sur GitHub, où des personnes plus compétentes que l'auteur originel ont apporté de nombreuses améliorations.
-[**N'hésitez pas à poser des questions**](https://airtable.com/shrzMhx00YiIVAWJg) sur la ligne de commande.
-[**Merci de contribuer**](/CONTRIBUTING.md) si vous voyez une erreur ou quelque chose qui pourrait être amélioré !
 
 
 ## Méta
@@ -34,7 +27,7 @@ Contexte :
 - Ce guide est destiné aux débutants et aux utilisateurs chevronnés.
 Les objectifs sont l'*envergure* (tout est important), la *spécificité* (donner des exemples concrets des cas les plus courants) et la *concision* (éviter tout ce qui n'est pas essentiel et les digressions disponibles facilement ailleurs).
 Chaque astuce est indispensable dans certaines situations ou fait gagner beaucoup de temps par rapport aux solutions alternatives.
-- Il est écrit pour Linux, à l'exception des sections « [Uniquement macOS](#uniquement-macos) » et « [Uniquement Windows](#uniquement-windows) ».
+- Les commandes listées sont destinées à un usage sous Linux mais peuvent être utilisées sous d'autres systèmes d'exploitations, à l'exception des sections « [Uniquement macOS](#uniquement-macos) » et « [Uniquement Windows](#uniquement-windows) ».
 Beaucoup d'items s'appliquent ou peuvent être installés sur d'autres Unices ou macOS (ou même Cygwin).
 - L'accent est mis sur l'utilisation interactive de Bash, bien que de nombreuses astuces s'appliquent aux autres shells et à l'écriture de scripts en Bash.
 - Il inclut les commandes « standard » d'Unix aussi bien que celles qui nécessitent l'installation de paquets spéciaux &mdash; tant qu'ils sont suffisamment importants pour mériter d'être mentionnés.

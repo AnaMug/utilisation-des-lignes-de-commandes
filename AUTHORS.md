@@ -1,10 +1,15 @@
 # Authors
+Ce document est le fruit du travail de [nombreux auteurs et traducteurs](AUTHORS.md).
+Une partie de celui-ci a été [initialement](http://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands) [publiée](http://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix) sur [Quora](http://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know), mais il se trouve maintenant sur GitHub, où des personnes plus compétentes que l'auteur originel ont apporté de nombreuses améliorations.
+[**N'hésitez pas à poser des questions**](https://airtable.com/shrzMhx00YiIVAWJg) sur la ligne de commande.
+[**Merci de contribuer**](/CONTRIBUTING.md) si vous voyez une erreur ou quelque chose qui pourrait être amélioré !
 
-This work is the result of the effort of many people around the world.
-Contributors are listed in alphabetical order by GitHub login.
 
-Some contributors are also assigned roles as maintainers.
-They have kindly agreed to review and help update future contributions for the translation or section they own.
+*This work is the result of the effort of many people around the world.*
+*Contributors are listed in alphabetical order by GitHub login.*
+
+*Some contributors are also assigned roles as maintainers.*
+*They have kindly agreed to review and help update future contributions for the translation or section they own.*
 
 
 
