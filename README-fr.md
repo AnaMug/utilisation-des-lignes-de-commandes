@@ -1,11 +1,5 @@
-🌍
-*[Čeština](README-cs.md) ∙ [Deutsch](README-de.md) ∙ [Ελληνικά](README-el.md) ∙ [English](README.md) ∙ [Español](README-es.md) ∙ [Français](README-fr.md) ∙ [Indonesia](README-id.md) ∙ [Italiano](README-it.md) ∙ [日本語](README-ja.md) ∙ [한국어](README-ko.md) ∙ [polski](README-pl.md) ∙ [Português](README-pt.md) ∙ [Română](README-ro.md) ∙ [Русский](README-ru.md) ∙ [Slovenščina](README-sl.md) ∙ [Українська](README-uk.md) ∙ [简体中文](README-zh.md) ∙ [繁體中文](README-zh-Hant.md)*
-
 # L'art de la ligne de commande
 
-*Note : Je prévois de réviser le document et suis à la recherche d'un nouveau co-auteur pour en faire un guide plus complet.
-Bien que très populaire, il pourrait être plus étendu et un peu plus approfondi.
-Si vous aimer écrire, n'êtes pas loin d'être un expert du sujet et êtes disposé à contribuer, veuillez me laisser un message à josh (0x40) holloway.com. –[jlevy](https://github.com/jlevy), [Holloway](https://www.holloway.com). Merci !*
 
 - [Méta](#méta)
 - [Notions de base](#notions-de-base)
