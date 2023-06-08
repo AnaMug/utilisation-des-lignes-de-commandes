@@ -10,25 +10,18 @@ L'invite de commandes de windows est un outil puissant à portée de main de la 
 - `cls` Cette commande sert à effacer l'écran.
 - `color`à l'aide des arguments de couleur, cette commande vous permet de changer les couleurs de votre invite de commande. `color 60`pour un texte noir sur fond jaune.
 
-| Couleur     | Code |
-| ----------- | -----|
-| Noir        | 0    |
-| Bleu        | 1    |
-| Vert        | 2    |
-| Aqua        | 3    |
-| Rouge       | 4    |
-| Pourpre     | 5    |
-| Jaune       | 6    |
-| Gris clair  | 7    |
-| Gris        | 8    |
-| Bleu clair  | 9    |
-| Vert clair  | a    |
-| Aqua clair  | b    |
-| Rouge clair | c    |
-| Violet      | d    |
-| Jaune clair | e    |
-| Blanc       | f    |
+| Couleur     | Code | Couleur     | Code |
+| ----------- | -----| ----------- | -----|
+| Noir        | 0    | Gris        | 8    |
+| Bleu        | 1    | Bleu clair  | 9    |
+| Vert        | 2    | Vert clair  | a    |
+| Aqua        | 3    | Aqua clair  | b    |
+| Rouge       | 4    | Rouge clair | c    |
+| Pourpre     | 5    | Violet      | d    |
+| Jaune       | 6    | Jaune clair | e    |
+| Gris clair  | 7    | Blanc       | f    |
 
+- `cmd` Cette commande ouvre une nouvelle invite de commande
 
 - `title <titre que vous souhaitez donner à la fenêtre` cette commande vous permet de donner un titre à votre fenêtre d'invite de commandes
 
