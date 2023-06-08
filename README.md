@@ -11,13 +11,12 @@ Ce document est basé sur une traduction de "The Art of the command Line" de [Jo
 - [Obscures mais utiles](#obscures-mais-utiles)
 - [Uniquement macOS](#uniquement-macos)
 - [Uniquement Windows](#uniquement-windows)
+- [Windows et PowerShell](PowerShell.md)
 - [Autres ressources](#autres-ressources)
 - [Avertissement](#avertissement)
 
 
 ![curl -s 'https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README.md' | egrep -o '`\w+`' | tr -d '`' | cowsay -W50](/images/cowsay.png)
-
-
 
 
 ## Méta
@@ -43,7 +42,7 @@ Utilisez `apt`, `yum`, `dnf`, `pacman`, `pip` ou `brew` (selon votre distributio
 ## Notions de base
 
 - Apprenez les bases de Bash.
-En fait, tapez `man bash` et parcourez toute la page&#8239;; elle est relativement facile à suivre et pas si longue.
+En fait, tapez `man bash` et parcourez toute la page&#8239;; elle est relativement facile à suivre et pas si longue. Sous windows vous pouvez utiliser la commande `bash --help`, `bash -c help` ou encore `bash <nom de la commande> --help`.
 Les shells alternatifs peuvent être intéressants, mais Bash est puissant et disponible partout (apprendre *seulement* zsh, fish, etc., bien que cela soit tentant sur votre ordinateur portable, vous limite dans bien des situations, comme par exemple lors de l'utilisation de vrais serveurs).
 
 - Apprenez à bien utiliser au moins un éditeur en mode texte.
@@ -116,7 +115,9 @@ C'est très puissant.
 Remarquez que vous pouvez contrôler le nombre d'items à exécuter par ligne (`-L`) ainsi que la parallélisation (`-P`).
 Si vous n'êtes pas sûr d'avoir fait ce qu'il faut, utilisez d'abord `xargs echo`.
 L'option `-I{}` est également pratique.
+
 Exemples&nbsp;:
+
 ```bash
       find . -name '*.py' | xargs grep some_function
       cat hosts | xargs -I{} ssh root@{} hostname
@@ -132,7 +133,7 @@ Pour la liste complète, consultez `man 7 signal`.
 
 - Utilisez `nohup` ou `disown` pour qu'un processus en arrière-plan reste actif indéfiniment.
 
-- Vérifiez quels sont les processus qui écoutent à l'aide de `netstat -lntp`, `ss -plat` (pour TCP; ajoutez `-u` pour UDP) ou `lsof -iTCP -sTCP:LISTEN -P -n` (qui fonctionne aussi sur macOS). 
+- Vérifiez quels sont les processus qui écoutent à l'aide de `netstat -lntp`, `ss -plat` (pour TCP; ajoutez `-u` pour UDP) ou `lsof -iTCP -sTCP:LISTEN -P -n` (qui fonctionne aussi sur macOS).
 
 - Voyez également `lsof` et `fuser` pour la liste des *sockets* et fichiers ouverts.
 
@@ -307,7 +308,7 @@ Beaucoup de personnes utilisent `cut` mais oublient `join`.
 - Pour des calculs plus complexes, incluant les regroupements, les inversions de champs et des calculs statistiques, considérez [`datamash`](https://www.gnu.org/software/datamash/).
 
 - Sachez que la locale affecte de nombreux outils en ligne de commande de manière subtile, comme l'ordre pour les tris (collation) et les performances.
-La plupart des installateurs Linux définissent la variable `LANG` ou d'autres variables locales d'environnement pour configurer une locale telle que US English.
+La plupart des installateurs Linux définissent la variable `LANG` ou d'autres variables locales d'environnement sur un paramètre local telle que US English.
 Mais ayez à l'esprit que le tri sera modifié si vous changez la locale.
 Et sachez que les routines i18n peuvent rendre les opérations de tri et d'autres commandes *beaucoup* plus lentes.
 Dans certains cas (tels que les opérations concernant les ensembles et l'unicité abordées ci-dessous) vous pouvez, sans risque, ignorer complètement les lentes routines i18n et utiliser l'ordre de tri classique fondé sur les valeurs des octets à l'aide de `export LC_ALL=C`.
