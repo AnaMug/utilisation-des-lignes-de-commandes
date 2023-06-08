@@ -33,7 +33,7 @@ Beaucoup d'items s'appliquent ou peuvent être installés sur d'autres Unices ou
 
 Remarques :
 
-- Afin que le guide tienne sur une seule page, du contenu est implicitement inclus par référence.
+- Afin que le guide soit le plus concis possible, une partie du contenu est implicitement inclus par référence.
 Vous êtes suffisamment intelligents pour rechercher des renseignements ailleurs une fois que vous avez l'idée ou la commande à googler.
 Utilisez `apt`, `yum`, `dnf`, `pacman`, `pip` ou `brew` (selon votre distribution ou OS) pour installer de nouveaux programmes.
 - Allez sur [Explainshell](http://explainshell.com) pour obtenir de l'aide à propos des commandes, options, tubes, etc.
@@ -42,7 +42,8 @@ Utilisez `apt`, `yum`, `dnf`, `pacman`, `pip` ou `brew` (selon votre distributio
 ## Notions de base
 
 - Apprenez les bases de Bash.
-En fait, tapez `man bash` et parcourez toute la page&#8239;; elle est relativement facile à suivre et pas si longue. Sous windows vous pouvez utiliser la commande `bash --help`, `bash -c help` ou encore `bash <nom de la commande> --help`.
+En fait, tapez `man bash` et parcourez toute la page&#8239;; elle est relativement facile à suivre et pas si longue.
+Sous windows, man n'étant pas disponible par défaut, vous pouvez utiliser la commande `bash --help`, `bash -c help` ou encore `bash <nom de la commande> --help`.
 Les shells alternatifs peuvent être intéressants, mais Bash est puissant et disponible partout (apprendre *seulement* zsh, fish, etc., bien que cela soit tentant sur votre ordinateur portable, vous limite dans bien des situations, comme par exemple lors de l'utilisation de vrais serveurs).
 
 - Apprenez à bien utiliser au moins un éditeur en mode texte.
