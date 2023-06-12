@@ -4,6 +4,12 @@ Quand on travaille sous windows, il est facile de se perdre et de rechercher la 
 
 L'invite de commandes de windows est un outil puissant à portée de main de la plupart des utilisateurs, si vous travaillez sous système UNIX mais que votre client utilise WINDOWS, j'espère que ce guide vous sera utile.
 
+- [Notions de base](#notions-de-base)
+- [Navigation dans les dossier](#navigation-dans-les-dossier)
+- [Gestion des fichiers](#gestion-des-fichiers)
+- [Informations sur le système et le réseau](#informations-sur-le-système-et-le-réseau)
+- [Gestion des processus](#gestion-des-processus)
+
 ## Notions de base
 
 - `help` La commande `help`vous aidera à en savoir plus sur chaque commandes que vous serez ammené à utiliser.
@@ -26,19 +32,69 @@ L'invite de commandes de windows est un outil puissant à portée de main de la 
 - `prompt` Modifie l'invite de commandes, avec notemment la possibilité d'afficher le texte souhaité.
 - `title <titre que vous souhaitez donner à la fenêtre` cette commande vous permet de donner un titre à votre fenêtre d'invite de commandes.
 - `exit` Permet de quitter l'invite de commande ou le script actuel.
+- `Tab` Cette commande vous permet de compléter automatiquement votre commande
+- `F7` Cette commande vous permet de lister les commandes que vous avez utilisées précédement et de choisir l'une d'entre elle.
 
-## La navigation dans les dossier
+## Navigation dans les dossier
 
 - `c: ou d:`Changer le disque de travail actuel vers le disque spécifié (aller du dique C:\ vers le disque D:\ par exemple).
 - `cd` Changer de répertoire ou afficher le répertoire actuel
 - `cd /D` Permet de changer de disque pour afficher le répertoire souhaité. Passer du disque `C:`au disque `D:` pour afficher le dossier de téléchargement avec `cd /D d:\téléchargements\`par exemple.
 - `dir`Affiche les fichiers et dossiers présent dans le répertoire actuel.
+- `sort`Lit l’entrée, trie les données et écrit les résultats à l’écran, dans un fichier.
+- `move`.
+- `md`.
+- `rd`.
+- `tree`.
+- `attrib`.
 
-## La gestion des fichiers
+## Gestion des fichiers
 
-## La gestion du disque dur
+- `copy`
+- `xcopy`
+- `del`
+- `ren`
+- `comp`
+- `find`
+- `print`
+- `notepad`
 
-## Les informations sur le système et le réseau
+## Gestion du disque dur
 
-## La gestion des processus
+- `chkdsk`
+- `defrag`
+- `label d:x`
+- `sfc /scannow`
+- `format`
+- `diskpart`
+- `convert`
+- `fsutil`
+- `recover`
+- `powercfg`
 
+## Informations sur le système et le réseau
+
+- `date`
+- `time`
+- `ver`
+- `hostname`
+- `syteminfo`
+- `driverquery`
+- `ipconfig`
+- `ping`
+- `tracert`
+- `nslookup`
+- `arp`
+- `getmac`
+
+## Gestion des processus
+
+- `schtasks`
+- `tasklist`
+- `taskkill`
+- `set`
+- `path`
+- `shutdown`
+- `regregedit`
+- `runas`
+- `powershell`
