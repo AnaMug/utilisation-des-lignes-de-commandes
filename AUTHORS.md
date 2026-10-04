@@ -1,62 +1,62 @@
-# Authors
+# Auteurs
 Ce document est le fruit du travail de [nombreux auteurs et traducteurs](AUTHORS.md).
 Une partie de celui-ci a été [initialement](http://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands) [publiée](http://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix) sur [Quora](http://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know), mais il se trouve maintenant sur GitHub, où des personnes plus compétentes que l'auteur originel ont apporté de nombreuses améliorations.
 [**N'hésitez pas à poser des questions**](https://airtable.com/shrzMhx00YiIVAWJg) sur la ligne de commande.
 [**Merci de contribuer**](/CONTRIBUTING.md) si vous voyez une erreur ou quelque chose qui pourrait être amélioré !
 
 
-*This work is the result of the effort of many people around the world.*
-*Contributors are listed in alphabetical order by GitHub login.*
+*Ce travail est le fruit des efforts de nombreuses personnes à travers le monde.*
+*Les contributeurs sont classés par ordre alphabétique de leur identifiant GitHub.*
 
-*Some contributors are also assigned roles as maintainers.*
-*They have kindly agreed to review and help update future contributions for the translation or section they own.*
+*Certains contributeurs ont également un rôle de responsable.*
+*Ils ont gentiment accepté de relire et d'aider à mettre à jour les futures contributions pour la traduction ou la section dont ils ont la charge.*
 
 
 
-*Maintainers*
+*Responsables*
 
-* [Ahmad Zafrullah (23Pstars)](https://github.com/23Pstars) — [3+](https://github.com/jlevy/the-art-of-command-line/commits?author=23Pstars)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3A23Pstars) — _translation maintainer (id)_
-* [Anna Damtsa (anna-d)](https://github.com/anna-d) — [24+](https://github.com/jlevy/the-art-of-command-line/commits?author=anna-d)/[7+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aanna-d) — _translation maintainer (el)_
-* [Carlos Mantilla (ceoaliongroo)](https://github.com/ceoaliongroo) — [29+](https://github.com/jlevy/the-art-of-command-line/commits?author=ceoaliongroo)/[16+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aceoaliongroo) — _translation maintainer (es)_
-* [Dmytro Kovalov (uk: Дмитро Ковальов) (dmytro)](https://github.com/dmytro) — [6+](https://github.com/jlevy/the-art-of-command-line/commits?author=dmytro)/[4+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Admytro) — _translation maintainer (uk)_
-* [Hayato Matsuura (doublemarket)](https://github.com/doublemarket) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=doublemarket)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Adoublemarket) — _translation maintainer (ja)_
-* [Diomidis Spinellis (dspinellis)](https://github.com/dspinellis) — [15+](https://github.com/jlevy/the-art-of-command-line/commits?author=dspinellis)/[11+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Adspinellis) — _section maintainer (Windows)_
-* [Éric Guirbal (ericguirbal)](https://github.com/ericguirbal) — [31+](https://github.com/jlevy/the-art-of-command-line/commits?author=ericguirbal)/[14+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aericguirbal) — _translation maintainer (fr)_
-* [Francesco Malatesta (francescomalatesta)](https://github.com/francescomalatesta) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=francescomalatesta)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Afrancescomalatesta) — _translation maintainer (it)_
-* [Joshua Levy (jlevy)](https://github.com/jlevy) — [162+](https://github.com/jlevy/the-art-of-command-line/commits?author=jlevy)/[59+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Ajlevy) — _original author and project maintainer_
-* [kevingo (kevingo)](https://github.com/kevingo) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=kevingo)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Akevingo) — _translation maintainer (zh-Hant)_
-* [lsrom](https://github.com/lsrom) — [14+](https://github.com/jlevy/the-art-of-command-line/commits?author=lsrom)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Alsrom) — _translation maintainer (cs)_
-* [Mihai Maruseac (mihaimaruseac)](https://github.com/mihaimaruseac) — [10+](https://github.com/jlevy/the-art-of-command-line/commits?author=mihaimaruseac)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Amihaimaruseac) — _translation maintainer (ro)_
-* [Nilton Vasques (niltonvasques)](https://github.com/niltonvasques) — [24+](https://github.com/jlevy/the-art-of-command-line/commits?author=niltonvasques)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aniltonvasques) — _translation maintainer (pt)_
-* [Oleg Berman (olegberman)](https://github.com/olegberman) — [15+](https://github.com/jlevy/the-art-of-command-line/commits?author=olegberman)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aolegberman) — _translation maintainer (ru)_
-* [Peter Kokot (petk)](https://github.com/petk) — [54+](https://github.com/jlevy/the-art-of-command-line/commits?author=petk)/[39+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Apetk) — _translation maintainer (sl)_
-* [Chujie Zeng (Psycho7)](https://github.com/Psycho7) — [25+](https://github.com/jlevy/the-art-of-command-line/commits?author=Psycho7)/[9+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3APsycho7) — _translation maintainer (zh)_
-* [Martin Folkers (S1SYPHOS)](https://github.com/S1SYPHOS) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=S1SYPHOS)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3AS1SYPHOS) — _translation maintainer (de)_
-* [Stepan Babala (stepan0904)](https://github.com/stepan0904) — [37+](https://github.com/jlevy/the-art-of-command-line/commits?author=stepan0904)/[6+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Astepan0904) — _translation (uk)_
-* [Ungsik Yun (Ungsik-Yun)](https://github.com/Ungsik-Yun) — [15+](https://github.com/jlevy/the-art-of-command-line/commits?author=Ungsik-Yun)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3AUngsik-Yun) — _translation maintainer (ko)_
+* [Ahmad Zafrullah (23Pstars)](https://github.com/23Pstars) — [3+](https://github.com/jlevy/the-art-of-command-line/commits?author=23Pstars)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3A23Pstars) — _responsable de la traduction (id)_
+* [Anna Damtsa (anna-d)](https://github.com/anna-d) — [24+](https://github.com/jlevy/the-art-of-command-line/commits?author=anna-d)/[7+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aanna-d) — _responsable de la traduction (el)_
+* [Carlos Mantilla (ceoaliongroo)](https://github.com/ceoaliongroo) — [29+](https://github.com/jlevy/the-art-of-command-line/commits?author=ceoaliongroo)/[16+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aceoaliongroo) — _responsable de la traduction (es)_
+* [Dmytro Kovalov (uk: Дмитро Ковальов) (dmytro)](https://github.com/dmytro) — [6+](https://github.com/jlevy/the-art-of-command-line/commits?author=dmytro)/[4+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Admytro) — _responsable de la traduction (uk)_
+* [Hayato Matsuura (doublemarket)](https://github.com/doublemarket) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=doublemarket)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Adoublemarket) — _responsable de la traduction (ja)_
+* [Diomidis Spinellis (dspinellis)](https://github.com/dspinellis) — [15+](https://github.com/jlevy/the-art-of-command-line/commits?author=dspinellis)/[11+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Adspinellis) — _responsable de la section (Windows)_
+* [Éric Guirbal (ericguirbal)](https://github.com/ericguirbal) — [31+](https://github.com/jlevy/the-art-of-command-line/commits?author=ericguirbal)/[14+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aericguirbal) — _responsable de la traduction (fr)_
+* [Francesco Malatesta (francescomalatesta)](https://github.com/francescomalatesta) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=francescomalatesta)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Afrancescomalatesta) — _responsable de la traduction (it)_
+* [Joshua Levy (jlevy)](https://github.com/jlevy) — [162+](https://github.com/jlevy/the-art-of-command-line/commits?author=jlevy)/[59+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Ajlevy) — _auteur original et responsable du projet_
+* [kevingo (kevingo)](https://github.com/kevingo) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=kevingo)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Akevingo) — _responsable de la traduction (zh-Hant)_
+* [lsrom](https://github.com/lsrom) — [14+](https://github.com/jlevy/the-art-of-command-line/commits?author=lsrom)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Alsrom) — _responsable de la traduction (cs)_
+* [Mihai Maruseac (mihaimaruseac)](https://github.com/mihaimaruseac) — [10+](https://github.com/jlevy/the-art-of-command-line/commits?author=mihaimaruseac)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Amihaimaruseac) — _responsable de la traduction (ro)_
+* [Nilton Vasques (niltonvasques)](https://github.com/niltonvasques) — [24+](https://github.com/jlevy/the-art-of-command-line/commits?author=niltonvasques)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aniltonvasques) — _responsable de la traduction (pt)_
+* [Oleg Berman (olegberman)](https://github.com/olegberman) — [15+](https://github.com/jlevy/the-art-of-command-line/commits?author=olegberman)/[2+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aolegberman) — _responsable de la traduction (ru)_
+* [Peter Kokot (petk)](https://github.com/petk) — [54+](https://github.com/jlevy/the-art-of-command-line/commits?author=petk)/[39+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Apetk) — _responsable de la traduction (sl)_
+* [Chujie Zeng (Psycho7)](https://github.com/Psycho7) — [25+](https://github.com/jlevy/the-art-of-command-line/commits?author=Psycho7)/[9+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3APsycho7) — _responsable de la traduction (zh)_
+* [Martin Folkers (S1SYPHOS)](https://github.com/S1SYPHOS) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=S1SYPHOS)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3AS1SYPHOS) — _responsable de la traduction (de)_
+* [Stepan Babala (stepan0904)](https://github.com/stepan0904) — [37+](https://github.com/jlevy/the-art-of-command-line/commits?author=stepan0904)/[6+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Astepan0904) — _traduction (uk)_
+* [Ungsik Yun (Ungsik-Yun)](https://github.com/Ungsik-Yun) — [15+](https://github.com/jlevy/the-art-of-command-line/commits?author=Ungsik-Yun)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3AUngsik-Yun) — _responsable de la traduction (ko)_
 
-*Translators*
+*Traducteurs et traductrices*
 
-* [Antonio Ossa (aaossa)](https://github.com/aaossa) — [5+](https://github.com/jlevy/the-art-of-command-line/commits?author=aaossa)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aaaossa) — _translator (es)_
-* [Chong Guo (Armour)](https://github.com/Armour) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=Armour)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3AArmour) — _translator (zh)_
-* [Bogdan Luput (bgdnlp)](https://github.com/bgdnlp) — _translator (ro)_
-* [Alex Vergara Gil (BishopWolf)](https://github.com/BishopWolf) — [4+](https://github.com/jlevy/the-art-of-command-line/commits?author=BishopWolf)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3ABishopWolf) — _translator (es)_
-* [Gernot Pointner (gernd)](https://github.com/gernd) — [6+](https://github.com/jlevy/the-art-of-command-line/commits?author=gernd)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Agernd) — _translator (de)_
-* [githubashto](https://github.com/githubashto) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=githubashto)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Agithubashto) — _translator (ru)_
-* [Grigory Rechistov (grigory-rechistov)](https://github.com/grigory-rechistov) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=grigory-rechistov)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Agrigory-rechistov) — _translator (ru)_
-* [Sung Kim (hunkim)](https://github.com/hunkim) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=hunkim)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Ahunkim) — _translator (ko)_
-* [kstn (kastian)](https://github.com/kastian) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=kastian)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Akastian) — _translator (ru)_
-* [Kohei Takada (koh7)](https://github.com/koh7) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=koh7)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Akoh7) — _translator (ja)_
-* [osmero](https://github.com/osmero) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=osmero)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aosmero) — _translator (ru)_
-* [Remi Verchere (rverchere)](https://github.com/rverchere) — _translator (fr)_
-* [Snowcat8436 (Snowcat8436)](https://github.com/Snowcat8436) — [4+](https://github.com/jlevy/the-art-of-command-line/commits?author=Snowcat8436)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3ASnowcat8436) — _translator (ko)_
-* [spmbt (spmbt)](https://github.com/spmbt) — [13+](https://github.com/jlevy/the-art-of-command-line/commits?author=spmbt)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aspmbt) — _translator (ru)_
-* [Steven Liu (stevenlordiam)](https://github.com/stevenlordiam) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=stevenlordiam)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Astevenlordiam) — _translator (zh)_
-* [Thomas Sungjin Kang (ujuc)](https://github.com/ujuc) — [6+](https://github.com/jlevy/the-art-of-command-line/commits?author=ujuc)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aujuc) — _translator (ko)_
-* [Valeria de Paiva (vcvpaiva)](https://github.com/vcvpaiva) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=vcvpaiva)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Avcvpaiva) — _translator (pt)_
-* [Xu Chunyang (xuchunyang)](https://github.com/xuchunyang) — [13+](https://github.com/jlevy/the-art-of-command-line/commits?author=xuchunyang)/[7+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Axuchunyang) — _translator (zh)_
+* [Antonio Ossa (aaossa)](https://github.com/aaossa) — [5+](https://github.com/jlevy/the-art-of-command-line/commits?author=aaossa)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aaaossa) — _traducteur·rice (es)_
+* [Chong Guo (Armour)](https://github.com/Armour) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=Armour)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3AArmour) — _traducteur·rice (zh)_
+* [Bogdan Luput (bgdnlp)](https://github.com/bgdnlp) — _traducteur·rice (ro)_
+* [Alex Vergara Gil (BishopWolf)](https://github.com/BishopWolf) — [4+](https://github.com/jlevy/the-art-of-command-line/commits?author=BishopWolf)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3ABishopWolf) — _traducteur·rice (es)_
+* [Gernot Pointner (gernd)](https://github.com/gernd) — [6+](https://github.com/jlevy/the-art-of-command-line/commits?author=gernd)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Agernd) — _traducteur·rice (de)_
+* [githubashto](https://github.com/githubashto) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=githubashto)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Agithubashto) — _traducteur·rice (ru)_
+* [Grigory Rechistov (grigory-rechistov)](https://github.com/grigory-rechistov) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=grigory-rechistov)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Agrigory-rechistov) — _traducteur·rice (ru)_
+* [Sung Kim (hunkim)](https://github.com/hunkim) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=hunkim)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Ahunkim) — _traducteur·rice (ko)_
+* [kstn (kastian)](https://github.com/kastian) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=kastian)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Akastian) — _traducteur·rice (ru)_
+* [Kohei Takada (koh7)](https://github.com/koh7) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=koh7)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Akoh7) — _traducteur·rice (ja)_
+* [osmero](https://github.com/osmero) — [1+](https://github.com/jlevy/the-art-of-command-line/commits?author=osmero)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aosmero) — _traducteur·rice (ru)_
+* [Remi Verchere (rverchere)](https://github.com/rverchere) — _traducteur·rice (fr)_
+* [Snowcat8436 (Snowcat8436)](https://github.com/Snowcat8436) — [4+](https://github.com/jlevy/the-art-of-command-line/commits?author=Snowcat8436)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3ASnowcat8436) — _traducteur·rice (ko)_
+* [spmbt (spmbt)](https://github.com/spmbt) — [13+](https://github.com/jlevy/the-art-of-command-line/commits?author=spmbt)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aspmbt) — _traducteur·rice (ru)_
+* [Steven Liu (stevenlordiam)](https://github.com/stevenlordiam) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=stevenlordiam)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Astevenlordiam) — _traducteur·rice (zh)_
+* [Thomas Sungjin Kang (ujuc)](https://github.com/ujuc) — [6+](https://github.com/jlevy/the-art-of-command-line/commits?author=ujuc)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Aujuc) — _traducteur·rice (ko)_
+* [Valeria de Paiva (vcvpaiva)](https://github.com/vcvpaiva) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=vcvpaiva)/[0+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Avcvpaiva) — _traducteur·rice (pt)_
+* [Xu Chunyang (xuchunyang)](https://github.com/xuchunyang) — [13+](https://github.com/jlevy/the-art-of-command-line/commits?author=xuchunyang)/[7+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Axuchunyang) — _traducteur·rice (zh)_
 
-*Contributors*
+*Contributeurs et contributrices*
 
 * [0xCD](https://github.com/0xCD) — [4+](https://github.com/jlevy/the-art-of-command-line/commits?author=0xCD)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3A0xCD)
 * [0xmohit](https://github.com/0xmohit) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=0xmohit)/[3+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3A0xmohit)
@@ -173,14 +173,14 @@ Une partie de celui-ci a été [initialement](http://www.quora.com/What-are-some
 * [Aleksandr Zhuravlev (zelark)](https://github.com/zelark) — [2+](https://github.com/jlevy/the-art-of-command-line/commits?author=zelark)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Azelark)
 * [Xudong Zhang (zxdvd)](https://github.com/zxdvd) — [0+](https://github.com/jlevy/the-art-of-command-line/commits?author=zxdvd)/[1+](https://github.com/jlevy/the-art-of-command-line/issues?q=author%3Azxdvd)
 
-Numbers link to commits/issues.
-For simplicity, this file is maintained only in English.
+Les nombres renvoient vers les commits et les tickets.
+Les noms et rôles proviennent du projet original en anglais.
 
-If your name does not appear as you would like it above, verify your name on your GitHub profile.
-Also confirm that your commits are using the correct e-mail to it is linked to your profile.
+Si votre nom n'apparaît pas comme vous le souhaitez ci-dessus, vérifiez votre nom sur votre profil GitHub.
+Vérifiez aussi que vos commits utilisent la bonne adresse e-mail, afin qu'ils soient associés à votre profil.
 
-If you see inaccuracies or omissions, please file an issue, or edit the authors-info.yml file, regenerate, and file a PR.
+Si vous constatez des erreurs ou des oublis, ouvrez un ticket, ou modifiez le fichier authors-info.yml, régénérez ce fichier et soumettez une demande de fusion.
 
 
 
-(This file was auto-generated by [ghizmo assemble-authors](https://github.com/jlevy/ghizmo).)
+(Ce fichier a été généré automatiquement par [ghizmo assemble-authors](https://github.com/jlevy/ghizmo).)

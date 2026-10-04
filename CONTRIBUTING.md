@@ -1,65 +1,67 @@
-## Contributing to The Art of Command Line
+## Contribuer à L'art de la ligne de commande
 
-This guide is a [collaborative effort](AUTHORS.md), based on the generous work of many contributors.
+Ce guide est un [travail collaboratif](AUTHORS.md), fondé sur le travail généreux de nombreux contributeurs. Cette version française s'appuie sur « [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) » de Joshua Levy et l'enrichit d'explications destinées aux élèves, ainsi que de pages consacrées à Windows ([CMD](windows-command-lines.md) et [PowerShell](PowerShell.md)).
 
 ## Questions
 
-[![Ask a Question](https://img.shields.io/badge/%3f-Ask%20a%20Question-ff69b4.svg)](https://airtable.com/shrzMhx00YiIVAWJg)
+[![Poser une question](https://img.shields.io/badge/%3f-Poser%20une%20question-ff69b4.svg)](https://airtable.com/shrzMhx00YiIVAWJg)
 
-The simplest thing you can do to help is [**submit any questions you might have**](https://airtable.com/shrzMhx00YiIVAWJg).
-The more the better. Questions help identify where the guide needs to be improved.
+La façon la plus simple d'aider est de [**soumettre les questions que vous vous posez**](https://airtable.com/shrzMhx00YiIVAWJg).
+Plus il y en a, mieux c'est : les questions permettent de repérer les endroits où le guide doit être amélioré.
 
 
 ## Contributions
 
-Contributions of all kinds, including corrections, additions, improvements, and translations, are welcome!
+Les contributions de toutes sortes, y compris les corrections, ajouts, améliorations et traductions, sont les bienvenues !
 
-We hope you'll join and help, in small ways or large.
-Here are few notes before you jump in.
+Nous espérons que vous participerez, que ce soit un peu ou beaucoup.
+Voici quelques conseils avant de vous lancer.
 
 ### Style
 
-- Stay close to the existing style of the document when possible.
-- Remember to focus on **brevity**, **specificity**, and **utility**.
-- Avoid long explanations and instead prefer links to resources.
+- Restez aussi proche que possible du style existant du document.
+- Visez la **concision**, la **précision** et l'**utilité**.
+- Les noms des commandes, options et exemples de code restent tels quels (en anglais) : seuls les textes explicatifs et les commentaires sont traduits.
+- Pour les pages destinées aux élèves, privilégiez des explications courtes accompagnées d'un exemple concret ; pour le reste, préférez les liens vers des ressources aux longues explications.
+- Signalez clairement les commandes dangereuses (suppression, formatage, droits administrateur).
 
-### Using issues and PRs
+### Utiliser les tickets (*issues*) et les demandes de fusion (*pull requests*)
 
-- Please **create and comment on issues freely** to discuss. A lot of the difficulty in accepting PRs is around style and format, and whether changes should be made at all, so rationale or explanations for the change are useful.
-- Please **review open issues and pull requests** before submitting a new one, to help reduce duplication.
-- To the extent possible, **break up changes into multiple PRs** so they can be approved separately. Large contributions are also welcome, but are harder and slower to approve, as they tend to require discussion or rewriting.
+- N'hésitez pas à **créer et commenter des tickets** pour discuter. Une grande partie de la difficulté à accepter des demandes de fusion tient au style, à la forme et à l'opportunité même des changements : expliquer les raisons d'une modification est donc utile.
+- Merci de **consulter les tickets et demandes de fusion ouverts** avant d'en soumettre un nouveau, afin d'éviter les doublons.
+- Dans la mesure du possible, **découpez vos changements en plusieurs demandes de fusion** afin qu'elles puissent être validées séparément. Les grosses contributions sont aussi les bienvenues, mais elles sont plus difficiles et plus longues à valider, car elles demandent souvent des discussions ou une réécriture.
 
 
-## Translations
+## Traductions
 
-The guide is now available in many languages. Here is the process for maintaining translations:
+Le guide original est disponible dans de nombreuses langues. Voici le fonctionnement des traductions dans le projet d'origine :
 
-- This original version and content of the guide is maintained in English.
-- *Translations follow the content of the original.* Note this means contributors to a translation must be able to read some English, so that translations do not diverge (unless it is only fixing a typo).
-- Each translation has a maintainer to update the translation as the original evolves and to review others' changes. This doesn't require a lot of time, but review by the maintainer is important to maintain quality.
-- See the [AUTHORS.md](AUTHORS.md) file for current maintainers. (This file is generated from the [authors-info.yml](admin/authors-info.yml) file.)
+- La version originale du guide est maintenue en anglais (voir [README-en.md](README-en.md)).
+- *Les traductions suivent le contenu de l'original.* Les contributeurs d'une traduction doivent donc pouvoir lire un peu l'anglais, afin que les traductions ne s'en éloignent pas (sauf pour la correction d'une coquille).
+- Chaque traduction a un responsable qui la met à jour au fur et à mesure que l'original évolue et qui relit les modifications des autres. Cela ne demande pas beaucoup de temps, mais cette relecture est importante pour la qualité.
+- Consultez le fichier [AUTHORS.md](AUTHORS.md) pour connaître les responsables actuels (ce fichier est généré à partir du fichier [authors-info.yml](admin/authors-info.yml)).
 
-### Changes to translations
+### Modifier une traduction
 
-- Changes to content should be made to the English version first, and then translated to each other language.
-- Changes that improve translations should be made directly on the file for that language. PRs should only modify one language at a time.
-- Submit a PR with changes to the file in that language. Each language has a maintainer, who reviews changes in that language. Then the primary maintainer @jlevy merges it in.
-- Prefix PRs and issues with language codes if they are for that translation only, e.g. "es: Improve grammar", so maintainers can find them easily.
+- Les modifications de contenu doivent d'abord être faites dans la version anglaise, puis traduites dans chacune des autres langues.
+- Les améliorations d'une traduction se font directement dans le fichier de la langue concernée. Une demande de fusion ne doit modifier qu'une seule langue à la fois.
+- Soumettez une demande de fusion contenant les modifications du fichier de cette langue. Chaque langue a un responsable qui relit les changements, puis le responsable principal, @jlevy, les fusionne.
+- Préfixez les demandes de fusion et les tickets par le code de la langue s'ils ne concernent que cette traduction, par exemple « fr: Amélioration de la grammaire », pour que les responsables les retrouvent facilement.
 
-### Adding a translation to a new language
+### Ajouter une traduction dans une nouvelle langue
 
-Translations to new languages are always welcome! Keep in mind a transation must be maintained, so it's needed to have one person maintain each translation.
+Les traductions dans de nouvelles langues sont toujours les bienvenues ! Gardez à l'esprit qu'une traduction doit être maintenue : chaque traduction a besoin d'une personne responsable.
 
-- Check existing issues to see if a translation is in progress or stalled. If so, offer to help.
-- Do you have time to be a maintainer for the new language? Please say so so we know we can count on you in the future.
-- If it is not in progress, file an issue for your language so people know you are working on it and we can arrange. Confirm you are native level in the language and are willing to maintain the translation, so it's not orphaned.
-- To get it started, fork the repo, then submit a PR with the single file README-xx.md added, where xx is the language code. Use standard [IETF language tags](https://www.w3.org/International/articles/language-tags/), i.e. the same as is used by Wikipedia, *not* the code for a single country. These are usually just the two-letter lowercase code, for example, `fr` for French and `uk` for Ukrainian (not `ua`, which is for the country). For languages that have variations, use the shortest tag, such as `zh-Hant`.
-- *Invite friends to review* if possible. Tranlsations are difficult and usually have erros others need to find. If desired, feel free to invite them to help your original translation by letting them fork your repo, then merging their PRs.
-- Add links to your translation at the top of every README*.md file. (For consistency, the link should be added in alphabetical order by ISO code, and the anchor text should be in the native language.)
-- When done, indicate on the PR that it's ready to be merged into the main repo.
+- Consultez les tickets existants pour vérifier si une traduction est en cours ou à l'arrêt. Si c'est le cas, proposez votre aide.
+- Avez-vous le temps d'être responsable de la nouvelle langue ? Dites-le, pour que l'on sache pouvoir compter sur vous à l'avenir.
+- Si aucune traduction n'est en cours, ouvrez un ticket pour votre langue afin que tout le monde sache que vous y travaillez et que l'on puisse s'organiser. Confirmez que vous maîtrisez cette langue comme un locuteur natif et que vous acceptez de maintenir la traduction, pour qu'elle ne soit pas abandonnée.
+- Pour commencer, faites un *fork* du dépôt, puis soumettez une demande de fusion contenant uniquement le fichier README-xx.md, où xx est le code de la langue. Utilisez les [étiquettes de langue IETF](https://www.w3.org/International/articles/language-tags/) standard, c'est-à-dire les mêmes que Wikipédia, et *non* le code d'un pays. Ce sont généralement des codes de deux lettres en minuscules, par exemple `fr` pour le français et `uk` pour l'ukrainien (et non `ua`, qui désigne le pays). Pour les langues qui ont des variantes, utilisez l'étiquette la plus courte, comme `zh-Hant`.
+- *Invitez des amis à relire* si possible. Les traductions sont difficiles et contiennent souvent des erreurs que d'autres doivent repérer. Si vous le souhaitez, invitez-les à améliorer votre traduction en faisant un *fork* de votre dépôt, puis fusionnez leurs demandes.
+- Ajoutez des liens vers votre traduction en haut de chaque fichier README*.md (par cohérence, ajoutez le lien dans l'ordre alphabétique des codes ISO, avec un texte de lien écrit dans la langue concernée).
+- Une fois terminé, indiquez dans la demande de fusion qu'elle est prête à être intégrée au dépôt principal.
 
-### Further questions
+### Autres questions
 
-Unsure of the process?
-Or do you have skills and inclination to help in a more substantial way?
-File an issue or e-mail the original author [@jlevy](https://github.com/jlevy).
+Vous avez un doute sur la procédure ?
+Ou vous avez les compétences et l'envie d'aider de façon plus importante ?
+Ouvrez un ticket ou écrivez à l'auteur original [@jlevy](https://github.com/jlevy).
