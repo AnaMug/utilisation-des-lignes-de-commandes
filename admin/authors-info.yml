@@ -1,62 +1,62 @@
-# This file is used to configure the "ghizmo assemble-authors" command.
+# Ce fichier sert à configurer la commande « ghizmo assemble-authors ».
 
 header: |
-  This work is the result of the effort of many people around the world.
-  Contributors are listed in alphabetical order by GitHub login.
+  Ce travail est le fruit des efforts de nombreuses personnes à travers le monde.
+  Les contributeurs sont classés par ordre alphabétique de leur identifiant GitHub.
 
-  Some contributors are also assigned roles as maintainers.
-  They have kindly agreed to review and help update future contributions for the translation or section they own.
+  Certains contributeurs ont également un rôle de responsable.
+  Ils ont gentiment accepté de relire et d'aider à mettre à jour les futures contributions pour la traduction ou la section dont ils ont la charge.
 
 footer: |
-  Numbers link to commits/issues.
-  For simplicity, this file is maintained only in English.
+  Les nombres renvoient vers les commits et les tickets.
+  Les noms et rôles proviennent du projet original en anglais.
 
-  If your name does not appear as you would like it above, verify your name on your GitHub profile.
-  Also confirm that your commits are using the correct e-mail to it is linked to your profile.
+  Si votre nom n'apparaît pas comme vous le souhaitez ci-dessus, vérifiez votre nom sur votre profil GitHub.
+  Vérifiez aussi que vos commits utilisent la bonne adresse e-mail, afin qu'ils soient associés à votre profil.
 
-  If you see inaccuracies or omissions, please file an issue, or edit the authors-info.yml file, regenerate, and file a PR.
+  Si vous constatez des erreurs ou des oublis, ouvrez un ticket, ou modifiez le fichier authors-info.yml, régénérez ce fichier et soumettez une demande de fusion.
 
 exclude:
   gitter-badger
   ReadmeCritic
 
 roles:
-  jlevy: original author and project maintainer
-  ceoaliongroo: translation maintainer (es)
-  aaossa: translator (es)
-  BishopWolf: translator (es)
-  doublemarket: translation maintainer (ja)
-  Ungsik-Yun: translation maintainer (ko)
-  Snowcat8436: translator (ko)
-  ujuc: translator (ko)
-  hunkim: translator (ko)
-  niltonvasques : translation maintainer (pt)
-  vcvpaiva: translator (pt)
-  olegberman: translation maintainer (ru)
-  spmbt: translator (ru)
-  osmero: translator (ru)
-  grigory-rechistov: translator (ru)
-  kastian: translator (ru)
-  githubashto: translator (ru)
-  petk: translation maintainer (sl)
-  Psycho7: translation maintainer (zh)
-  xuchunyang: translator (zh)
-  stevenlordiam: translator (zh)
-  Armour: translator (zh)
-  stepan0904: translation (uk)
-  dmytro: translation maintainer (uk)
-  francescomalatesta: translation maintainer (it)
-  lsrom: translation maintainer (cs)
-  ericguirbal: translation maintainer (fr)
-  rverchere: translator (fr)
-  kevingo: translation maintainer (zh-Hant)
-  anna-d: translation maintainer (el)
-  S1SYPHOS: translation maintainer (de)
-  gernd: translator (de)
-  dspinellis: section maintainer (Windows)
-  mihaimaruseac: translation maintainer (ro)
-  bgdnlp: translator (ro)
-  23Pstars: translation maintainer (id)
-  koh7: translator (ja)
+  jlevy: auteur original et responsable du projet
+  ceoaliongroo: responsable de la traduction (es)
+  aaossa: traducteur·rice (es)
+  BishopWolf: traducteur·rice (es)
+  doublemarket: responsable de la traduction (ja)
+  Ungsik-Yun: responsable de la traduction (ko)
+  Snowcat8436: traducteur·rice (ko)
+  ujuc: traducteur·rice (ko)
+  hunkim: traducteur·rice (ko)
+  niltonvasques : responsable de la traduction (pt)
+  vcvpaiva: traducteur·rice (pt)
+  olegberman: responsable de la traduction (ru)
+  spmbt: traducteur·rice (ru)
+  osmero: traducteur·rice (ru)
+  grigory-rechistov: traducteur·rice (ru)
+  kastian: traducteur·rice (ru)
+  githubashto: traducteur·rice (ru)
+  petk: responsable de la traduction (sl)
+  Psycho7: responsable de la traduction (zh)
+  xuchunyang: traducteur·rice (zh)
+  stevenlordiam: traducteur·rice (zh)
+  Armour: traducteur·rice (zh)
+  stepan0904: traduction (uk)
+  dmytro: responsable de la traduction (uk)
+  francescomalatesta: responsable de la traduction (it)
+  lsrom: responsable de la traduction (cs)
+  ericguirbal: responsable de la traduction (fr)
+  rverchere: traducteur·rice (fr)
+  kevingo: responsable de la traduction (zh-Hant)
+  anna-d: responsable de la traduction (el)
+  S1SYPHOS: responsable de la traduction (de)
+  gernd: traducteur·rice (de)
+  dspinellis: responsable de la section (Windows)
+  mihaimaruseac: responsable de la traduction (ro)
+  bgdnlp: traducteur·rice (ro)
+  23Pstars: responsable de la traduction (id)
+  koh7: traducteur·rice (ja)
 
 
